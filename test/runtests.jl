@@ -1,8 +1,10 @@
 using PythonCallTest
 using Test
 
-using PythonCall, CondaPkg
+using CondaPkg
 CondaPkg.add("numpy")
+
+using PythonCall
 
 @testset "PythonCallTest.jl" begin
     @pyexec """
