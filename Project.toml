@@ -1,0 +1,7 @@
+name = "PythonCallTest"
+uuid = "a3010358-28ce-4230-b6cc-0b9f345843c2"
+authors = ["icweaver <weaveric@gmail.com> and contributors"]
+version = "1.0.0-DEV"
+
+[compat]
+julia = "1.9"
