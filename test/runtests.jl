@@ -1,7 +1,7 @@
 using PythonCallTest
 using Test
 
-ENV["JULIA_CONDAPKG_BACKEND"] = "MicroMamba"
+ENV["JULIA_CONDAPKG_BACKEND"] = "Pixi"
 
 using CondaPkg
 CondaPkg.add("numpy")
